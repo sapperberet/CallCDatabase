@@ -40,10 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
           });
         });
     }
-  
+
     loadAgents();
-  
-    
+
     const addAgentForm = document.getElementById('addAgentForm');
     addAgentForm.onsubmit = (e) => {
       e.preventDefault();
@@ -59,4 +58,3 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     };
   });
-  
